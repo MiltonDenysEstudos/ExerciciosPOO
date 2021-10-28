@@ -102,7 +102,10 @@ public class Carro {
 	public static void main(String []args) {
 		//Carro instanciado 
 		Carro carro = new Carro("MONTANA COMBO 1.4 8V ECONOFLEX","Marrom","2008","GM - Chevrolet","34V MCPnH4 v3 gF3259",0,"4 portas","5 marchas",true);
-		//chamado metodo acelera 2x
+		//chamado metodo acelera 5x
+		carro.acelera();
+		carro.acelera();
+		carro.acelera();
 		carro.acelera();
 		carro.acelera();
         JOptionPane.showMessageDialog (null, carro);
