@@ -100,7 +100,7 @@ public class Proprietario {
 		this.complemento = complemento;
 	}
 	
-	//To String
+	//ToString
 	@Override
 	public String toString() {
 		return "Proprietario [nome=" + nome + ", cpf=" + cpf + ", rg=" + rg + ", dataNascimento=" + dataNascimento
